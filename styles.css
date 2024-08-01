@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+#urlInput {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#fetchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#imageDiv, #resultDiv {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    min-height: 400px;
+}
+
+#imageDiv img {
+    max-width: 100%;
+    height: auto;
+}
+
+#resultDiv {
+    text-align: left;
+    overflow: auto;
+}
